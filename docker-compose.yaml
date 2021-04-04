@@ -1,0 +1,17 @@
+version : "3"
+services:
+  mongows:
+    image: "mongo:latest"
+    container_name: mongows
+    restart: "on-failure"
+    environment:
+      mavariable: "temp"
+  
+  nodews:
+    image: "node:latest"
+    ports:
+      - "3000:80"
+    volumes:
+      - "C:\\Users\\Nene\\Desktop\\study\\WS6.2\\WS6.2:/data"
+
+    command: tail -f /dev/null

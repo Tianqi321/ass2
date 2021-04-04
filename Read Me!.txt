@@ -1,0 +1,7 @@
+So i have finished the upload part and i think its ok to fetch the data from database,but due to my problem in my PC with docker i am not able to test it ,and also for 
+a node.js project when i tried to upload via heroku the first time it wipe out all my code which i still dont know why so i am gonna give u a git link which contains all
+the documents needed ,sorry for the trouble and your understanding ,Thank you very much 
+
+Tianqi Huang 
+DIA3 
+Esilv
